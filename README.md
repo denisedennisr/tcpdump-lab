@@ -62,3 +62,6 @@ This command runs tcpdump with the following options: <br />
 -nn: Disable port and protocol name lookup. <br />
 -r: Read capture data from the named file.<br />
 -X: Display the hexadecimal and ASCII output format packet data. Security analysts can analyze hexadecimal and ASCII output to detect patterns or anomalies during malware analysis or forensic analysis.<br />
+<h2>Summary</h2>
+In this lab I identifed network interfaces, used the tcpdump command to capture network data for inspection, interpreted the information that tcpdump outputs regarding a packet, and
+save and load packet data for later analysis.
