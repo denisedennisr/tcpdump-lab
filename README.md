@@ -51,7 +51,7 @@ In this task, I used tcpdump to filter data from the packet capture file I saved
 As in the previous example, you can see the IP packet information along with information about the data that the packet contains.
 <br>
 <br>
-In this next snapshot I used the tcpdump command to filter the extended packet data from the capture.pcap capture file.
+In this next snapshot I used the tcpdump command "sudo tcpdump -nn -r capture.pcap -X" to filter the extended packet data from the capture.pcap capture file:
 <br/>
 <br/>
 <img src="https://imgur.com/fSGKyvD.png" height="80%" width="80%" alt="TCPDump"/>
