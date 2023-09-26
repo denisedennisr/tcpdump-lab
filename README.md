@@ -51,7 +51,9 @@ In this task, I used tcpdump to filter data from the packet capture file I saved
 As in the previous example, you can see the IP packet information along with information about the data that the packet contains.
 <br>
 <br>
-In this next snapshot I used the tcpdump command to filter the extended packet data from the capture.pcap capture file. <br/>
+In this next snapshot I used the tcpdump command to filter the extended packet data from the capture.pcap capture file.
+<br/>
+<br/>
 <img src="https://imgur.com/fSGKyvD.png" height="80%" width="80%" alt="TCPDump"/>
 <br />
 <br />
@@ -60,5 +62,4 @@ This command runs tcpdump with the following options: <br />
 -r: Read capture data from the named file.<br />
 -X: Display the hexadecimal and ASCII output format packet data. Security analysts can analyze hexadecimal and ASCII output to detect patterns or anomalies during malware analysis or forensic analysis.<br />
 <h2>Summary</h2>
-In this lab I identifed network interfaces, used the tcpdump command to capture network data for inspection, interpreted the information that tcpdump outputs regarding a packet, and
-save and load packet data for later analysis.
+In this lab I identifed network interfaces, used the tcpdump command to capture network data for inspection, interpreted the information that tcpdump outputs regarding a packet, and lastly I saved and loaded packet data for later analysis.
