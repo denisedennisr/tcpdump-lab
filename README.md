@@ -42,19 +42,16 @@ In this task, I used tcpdump to save the captured network data to a packet captu
 <br />
 <br />
 <h2> Filter the captured packet data</h2>
-In this task, I used tcpdump to filter data from the packet capture file I saved previously. Here I used the tcpdump command to filter the packet header data from the capture.pcap capture file. This command runs tcpdump with the following options:
--nn: Disable port and protocol name lookup.
--r: Read capture data from the named file.
+In this task, I used tcpdump to filter data from the packet capture file I saved previously. Here I used the tcpdump command to filter the packet header data from the capture.pcap capture file. This command runs tcpdump with the following options:<br/>
+-nn: Disable port and protocol name lookup.<br/>
+-r: Read capture data from the named file.<br/>
 -v: Display detailed packet data.  <br/>
-<br>
-<br>
+
 <img src="https://imgur.com/mmNrYbG.png" height="80%" width="80%" alt="TCPDump"/>
-<br />
-<br />
 As in the previous example, you can see the IP packet information along with information about the data that the packet contains.
 <br>
 <br>
-In this next snapshot I used the tcpdump command to filter the extended packet data from the capture.pcap capture file. 
+In this next snapshot I used the tcpdump command to filter the extended packet data from the capture.pcap capture file. <br/>
 <img src="https://imgur.com/fSGKyvD.png" height="80%" width="80%" alt="TCPDump"/>
 <br />
 <br />
