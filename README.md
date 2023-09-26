@@ -35,7 +35,7 @@ This section also includes the sequence and acknowledgment numbers, the window s
 <br>
 <br>
 <h2> Capture network traffic with tcpdump</h2>
-In this task, I used tcpdump to save the captured network data to a packet capture file. I used a filter and other tcpdump configuration options to save a small sample that contains only web (TCP port 80) network packet data. In order to capture packet data into a file called capture.pcap, I used the following command: "sudo tcpdump -i eth0 -nn -c9 port 80 -w capture.pcap &". Further down I used "curl" to generate some HTTP (port 80) traffic and "ls-l" to very the packet data that has been captured.
+In this task, I used tcpdump to save the captured network data to a packet capture file. I used a filter and other tcpdump configuration options to save a small sample that contains only web (TCP port 80) network packet data. In order to capture packet data into a file called capture.pcap, I used the following command: "sudo tcpdump -i eth0 -nn -c9 port 80 -w capture.pcap &". Further down I used "curl" to generate some HTTP (port 80) traffic and "ls-l" to verify the packet data that has been captured.
 <br>
 <br>
 <img src=https://imgur.com/UvFcul2.png" height="80%" width="80%" alt="TCPDump"/>
